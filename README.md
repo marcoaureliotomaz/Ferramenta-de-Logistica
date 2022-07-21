@@ -5,3 +5,5 @@
 - Java
 - Spring boot
 - Lombok
+- FlyWay
+- MySQL
