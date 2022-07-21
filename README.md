@@ -1,2 +1,7 @@
 # Ferramenta-de-Logistica
-Estudo de Java com Spring MVC
+
+## Tecnologias utilizadas na construção da API:
+
+- Java
+- Spring boot
+- Lombok
