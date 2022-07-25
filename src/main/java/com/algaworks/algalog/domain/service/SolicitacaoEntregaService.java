@@ -1,6 +1,7 @@
 package com.algaworks.algalog.domain.service;
 
 import java.time.LocalDateTime;
+import java.time.OffsetDateTime;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -28,7 +29,7 @@ public class SolicitacaoEntregaService {
 		Cliente cliente = catalaCatalogoClienteService.buscar(entrega.getCliente().getId());
 		
 		entrega.setCliente(cliente);
-		entrega.setDataPedido(LocalDateTime.now());
+		entrega.setDataPedido(OffsetDateTime.now());
 		entrega.setStatus(StatusEntrega.PENDENTE);
 		
 		return entregaRepository.save(entrega);
