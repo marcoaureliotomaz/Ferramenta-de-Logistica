@@ -1,13 +1,15 @@
 # Ferramenta-de-Logistica
 ## O projeto foi desenvolvido apenas para estudos de conceitos importantes na criação de uma API
 
-## Tecnologias utilizadas na construção da API:
+### Tecnologias utilizadas na construção da API:
 
 - Java
 - Spring boot
 - Lombok
+- ModelMapper
 - FlyWay
 - MySQL
+
 
 
 No projeto existe um arquivo JSON com uma collection do Postman com os Request
