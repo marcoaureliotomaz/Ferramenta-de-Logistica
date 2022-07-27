@@ -1,6 +1,14 @@
 # Ferramenta-de-Logistica
 ## O projeto foi desenvolvido apenas para estudos de conceitos importantes na criação de uma API
 
+### Recursos:
+- Cadastro de Cliente 
+- Cadastro de Destinatário
+- Cadastro de Entrega
+- Status da Entrega
+- Registro de Ocorrências da Entrega
+- Finalização da Entrega
+
 ### Conceitos utilizados na construção da API:
 - POO
 - Injeção de Dependências
